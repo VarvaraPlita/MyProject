@@ -1,0 +1,25 @@
+body{
+    .jw-slideshow-slide-content {
+        min-height: 50vh;
+      }
+      
+      @media screen and (min-height: 1200px) {
+        .jw-slideshow-slide-content {
+          min-height: 600px;
+        }
+      }
+}
+
+.form-and-map-container {
+  display: flex;
+  justify-content: space-between; /* Adjust the spacing between form and map */
+}
+
+.contact-form {
+  flex: 1; /* Allows the form to take up available space */
+  margin-right: 20px; /* Adjust margin between form and map */
+}
+
+.map {
+  flex: 1; /* Allows the map to take up available space */
+}
